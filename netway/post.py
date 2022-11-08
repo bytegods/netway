@@ -16,11 +16,11 @@ class post:
 	headers = None 
 	status_code = None
     def __init__(agent,url,payload):
-		post.domain = getdomain(url)
-		post.url = getfull(url)
-		post.http = gethttp(url)
-		post.ip = getip(url)
-		post.tld = gettld(url)
+	post.domain = getdomain(url)
+	post.url = getfull(url)
+	post.http = gethttp(url)
+	post.ip = getip(url)
+	post.tld = gettld(url)
 
         payload = parse.urlencode(payload).encode()
         req =  request.Request(post.url, data=payload)
