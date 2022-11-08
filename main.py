@@ -8,5 +8,5 @@ data = {
 }
 
 url = "https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key=AIzaSyBns4UUCKIfb_3xOesTSezA9GbEyuIU7XA"
-nw = netway.post(url)
+nw = netway.post(url,payload=data)
 print(nw.text)

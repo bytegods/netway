@@ -29,7 +29,7 @@ print(nw.headers)
 # .status_code
 ```
 
-Simple **POST** Request : \
+Simple **POST** Request :\
 You can use same **GET** modules for **POST** request.
 ```python
 import netway

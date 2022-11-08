@@ -1,5 +1,5 @@
 from netway.parse import *
-from urllib.request import urlopen
+from urllib import request, parse
 import socket
 import json 
 
