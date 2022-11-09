@@ -2,7 +2,7 @@
 
 <div> 
   <p align="center">
-    <img src="assets/svg/logo.svg" width="400"> 
+    <img src="https://github.com/bytegods/netway/blob/main/assets/png/logo.png?raw=true" width="400"> 
   </p>
 </div>
 
