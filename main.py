@@ -1,11 +1,9 @@
 import netway
 
 # Payload
-
-data = {
-  "content": "Testing post method..."
+proxy = {
+  "socks5" : "socks5://51.38.191.151:80"
 }
-
-url = "https://discord.com/api/webhooks/1039783739099709470/p-4OTStZeKRd-fzXUQwXmUqMQAhPYIAiDCYj3NYQgpPL7a9SDB8t1nChkYnwiWsmgKxO"
-nw = netway.post(url,payload=data)
+url = "https://api.ipify.org/"
+nw = netway.get(url)
 print(nw.text)

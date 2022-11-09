@@ -19,10 +19,9 @@ class get:
 	text = None 
 	headers = None 
 	status_code = None
-	#open_ports = []
 
 	@functools.cache
-	def __init__(self,url):
+	def __init__(self,url,**kwargs):
 		get.url = getfull(url)
 		get.domain = threading.Thread(target=getdomain,args=(url,)).start()
 		get.http = threading.Thread(target=gethttp,args=(url,)).start()
@@ -31,31 +30,8 @@ class get:
 
 		nw = urlopen(get.url)
 		try:
-    			get.text = nw.read().decode("utf-8")
+				get.text = nw.read().decode("utf-8")
 		except:
     			get.text = nw.read().decode("latin-1")
 		get.headers = nw.info()
 		get.status_code = nw.getcode()
-		#get.open_ports = threading.Thread(target=getports,args=(url,)).start()
-
-
-
-	# def json():
-	# 	op = "{"
-	# 	cl = "}"
-	# 	return f'''{op}
-	# 	"success": "{get.success}",
-
-	# 	"domain":  "{get.domain}",
-	# 	"url":     "{get.url}",
-	# 	"I.P.":    "{get.http}",
-	# 	"ip":      "{get.ip}",
-	# 	"tld":     "{get.tld}",
-
-	# 	"headers": "{get.headers}",
-	# 	"status":  "{get.status_code}",
-	# 	"text":    "{get.text}"
-
-	# 	{cl}
-
-	# 	'''

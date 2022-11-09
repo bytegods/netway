@@ -48,12 +48,29 @@ payload = {
   "continueUrl": "https://fireship.io/",
   "canHandleCodeInApp": True
 }
-
+proxy = {
+  "http" : "51.38.191.151:80"
+}
+header = {
+  "Content-Type" : "bla bla"
+}
 url = "https://identitytoolkit.googleapis.com/v1/accounts:sendOobCode?key=AIzaSyBns4UUCKIfb_3xOesTSezA9GbEyuIU7XA"
-nw = netway.post(url,payload=data)
+nw = netway.post(url,payload=data,proxies=proxy,headers=header)
 print(nw.text)
+# headers=header
+# proxies=proxy_dict
+# payload=data
 
-# Avaliable GET Modules : 
+# you are free to use them... Examples : 
+# nw = netway.post(url)
+# nw = netway.post(url,payload=data)
+#...
+
+# Avaliable POST Modules : 
+
+# proxies = proxy
+# headers = header
+# payload = data 
 
 # .domain
 # .url

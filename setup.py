@@ -14,6 +14,7 @@ setup(
     install_requires=[
           'sockets',
           'threading',
+          'urllib3',
       ],
 
 )
