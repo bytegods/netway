@@ -9,7 +9,7 @@ pip install netway
 
 ## Usage
 
-Simple **GET** Request :
+* Simple **GET** Request :
 ```python
 import netway 
 
@@ -29,8 +29,7 @@ print(nw.headers)
 # .status_code
 ```
 
-Simple **POST** Request :\
-You can use same **GET** modules for **POST** request.
+* Simple **POST** Request :
 ```python
 import netway
 
@@ -59,3 +58,4 @@ print(nw.text)
 # .headers
 # .status_code
 ```
+You can use same **GET** modules for **POST** request.
