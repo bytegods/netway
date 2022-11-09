@@ -12,7 +12,6 @@ setup(
     url='',
     keywords='sockets, request, http, https, get, port, fast',
     install_requires=[
-          'urllib',
           'sockets',
           'threading',
       ],
