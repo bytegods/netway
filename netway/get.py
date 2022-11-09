@@ -19,18 +19,24 @@ class get:
 	text = None 
 	headers = None 
 	status_code = None
+	#open_ports = []
 
 	@functools.cache
 	def __init__(self,url):
-		get.domain = getdomain(url)
 		get.url = getfull(url)
-		get.http = gethttp(url)
-		get.ip = getip(url)
-		get.tld = gettld(url)
+		get.domain = threading.Thread(target=getdomain,args=(url,)).start()
+		get.http = threading.Thread(target=gethttp,args=(url,)).start()
+		get.ip = threading.Thread(target=getip,args=(url,)).start()
+		get.tld = threading.Thread(target=gettld,args=(url,)).start()
+
 		nw = urlopen(get.url)
-		get.text = nw.read().decode("'latin-1'")
+		try:
+    			get.text = nw.read().decode("utf-8")
+		except:
+    			get.text = nw.read().decode("latin-1")
 		get.headers = nw.info()
 		get.status_code = nw.getcode()
+		#get.open_ports = threading.Thread(target=getports,args=(url,)).start()
 
 
 

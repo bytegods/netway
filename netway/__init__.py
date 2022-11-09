@@ -2,7 +2,10 @@ from netway.get import *
 from netway.parse import * 
 from netway.post import *
 from netway.fast import *
+from netway.scan import *
+
 class debug:
+    @functools.lru_cache(maxsize=16)
     def url(url):
         print(f"""
             Netway Debug...

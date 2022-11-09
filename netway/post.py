@@ -1,9 +1,8 @@
 from netway.parse import *
+import socket 
+import threading
 from urllib import request, parse
-from urllib.request import urlopen
-import socket
-import json 
-
+#from urllib.request import urlopen
 class post:
 	domain = None
 	url = None
@@ -11,31 +10,22 @@ class post:
 	ip = None 
 	tld = None 
 
-	# Advanced
-
-	text = None 
-	headers = None 
-	status_code = None
-	
-	@functools.cache
-	def __init__(agent,url,payload):
-		print(payload)
+	text = ''
+	status_code = 0
+	headers = ''
+	def __init__(agent,url,payload=None, **kwargs):
 		# try:
-		post.domain = getdomain(url)
 		post.url = getfull(url)
-		post.http = gethttp(url)
-		post.ip = getip(url)
-		post.tld = gettld(url)
-		
-		payload = parse.urlencode(payload).encode()
-		req =  request.Request(url, data=payload)
-		rget = request.urlopen(req)
-		print(rget.read())
+		post.domain = threading.Thread(target=getdomain,args=(url,)).start()
+		post.http = threading.Thread(target=gethttp,args=(url,)).start()
+		post.ip = threading.Thread(target=getip,args=(url,)).start()
+		post.tld = threading.Thread(target=gettld,args=(url,)).start()
 
-		post.text = rget.read().decode('latin-1')
-		post.status_code = rget.getcode()
-		post.headers = rget.info()
+		req =  request.Request(post.url, data=payload)
+		resp = request.urlopen(req)
 
+		post.text = resp.read().decode('utf-8')
+		post.status_code = resp.getcode()
+		post.headers = resp.info()
 		# except Exception as e:
 		# 	print(e)
-		# 	pass

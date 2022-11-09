@@ -1,6 +1,3 @@
-import netway
-
-# Payload
 
 data = {
   "content": "Testing post method..."

@@ -1,6 +1,11 @@
-from netway.fast import *
+import functools
 from urllib.request import urlopen
 import socket 
+
+@functools.cache
+def getip(url):
+    return socket.gethostbyname(getdomain(url))
+
 
 @functools.cache
 def getdomain(url):
@@ -28,11 +33,6 @@ def gethttp(domain):
         return 'http://'
 
     return 'https://'
-
-
-@functools.cache
-def getip(url):
-    return socket.gethostbyname(getdomain(url))
 
 @functools.cache
 def gettld(url):

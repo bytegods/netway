@@ -42,7 +42,7 @@ import netway
 
 # Payload
 
-data = {
+payload = {
   "requestType": "EMAIL_SIGNIN",
   "email": "jomavex666@hoxds.com",
   "continueUrl": "https://fireship.io/",
