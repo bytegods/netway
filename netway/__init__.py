@@ -1,7 +1,7 @@
 from netway.get import *
 from netway.parse import * 
 from netway.post import *
-
+from netway.fast import *
 class debug:
     def url(url):
         print(f"""
@@ -13,3 +13,4 @@ class debug:
     IP Adress       : {getip(url)}
     TLD Adress      : {gettld(url)}
     """)
+

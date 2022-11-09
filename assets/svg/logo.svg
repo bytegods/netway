@@ -1,0 +1,29 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg2453" viewBox="0 0 1024 768" height="768px" width="1024px" version="1.1">
+  <metadata id="metadata2459">
+    <rdf:rdf>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+      </cc:work>
+    </rdf:rdf>
+  </metadata>
+  <defs id="defs2457"></defs>
+  <linearGradient spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient2-logo-f60907bf-843b-4565-990d-ccd606801880">
+    <stop id="stop2434" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+    <stop id="stop2436" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+  </linearGradient>
+  <linearGradient gradientTransform="rotate(-30)" spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient3-logo-f60907bf-843b-4565-990d-ccd606801880">
+    <stop id="stop2439" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+    <stop id="stop2441" stop-opacity="1" stop-color="#cccccc" offset="50%"></stop>
+    <stop id="stop2443" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+  </linearGradient>
+  <g id="logo-group">
+    <image xlink:href="" id="container" x="272" y="144" width="480" height="480" transform="translate(0 0)" style="display: none;"></image>
+    <g id="logo-center" transform="translate(732.75 0)">
+      <image xlink:href="" id="icon_container" x="0" y="0" style="display: none;"></image>
+      <g id="slogan" style="font-style:normal;font-weight:700;font-size:32px;line-height:1;font-family:'Noto Sans';font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)"></g>
+      <g id="title" style="font-style:normal;font-weight:normal;font-size:72px;line-height:1;font-family:'Brandmark Sans 2 Color';font-variant-ligatures:normal;text-align:center;text-anchor:middle" transform="translate(0 0)"></g>
+      <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAAAXNSR0IArs4c6QAACJxJREFUeF7tnc2KXFUQgOv0JHtBpKczG8FpIZgHENy4cOXGhYjj1oUi6EMIvoEoAz6ABGcjujQLwU12igiSadwEOzNDBFcuxOkjgcCIJLdv3bp1Tp+6X9b1c+qr+pgwv0n410lgPV8+FJFnW8aUJN9enK+OWp6h1ttTrcat9EWQVjbl804E2cIVQXwOr5WqCIIgrdxqlXciCIJUObxWmiIIgrRyq1XeiSAIUuXwWmmKIAjSyq1WeSeCGAVJInck5eMq23vcNOf0VVd/vg4yfDsIYhREsnxw4+K0qiDr/eWJZHnzaaMgCIIMJ4AgbuwiFOYjCIJEuGO3GRAEQdyOK0JhBEGQCHfsNgOCIIjbcUUojCAIEuGO3WZAEARxO64IhREEQSLcsdsMCIIgbscVoTCCIEiEO3abAUEQxO24IhRGEASJcMduMyAIgrgdV4TCCIIgEe7YbQYEQRC344pQGEEQJMIdu82AIAjidlwRCiMIgkS4Y7cZEARB3I4rQmEEQZAId+w2A4IgiNtxRSiMIAgS4Y7dZkAQBHE7rgiFEQRBItyx2wwIgiBuxxWhMIIgSIQ7dpsBQRDE7bgiFEYQBIlwx24zIAiCuB1XhMIIgiAR7thtBgRBELfjilAYQRAkwh27zYAgCOJ2XBEKIwiCRLhjtxkQBEHcjitCYQRBkAh37DYDgiCI23FFKIwgCBLhjt1mQBAEcTuuCIURBEEi3LHbDAiCIG7HFaEwgiBIhDt2mwFBjILklD6+fvn3sduGehT+Z3btRCS98rTQJPn24nx11KMUIf8jgCBGQVq4KAQZviUEQZDh1zOBTARBkAmc+fAREQRBhl/PBDIRBEEmcObDR0QQBBl+PRPIRBAEmcCZDx8RQRBk+PVMIBNBtiz5bH748mYzuzbWLcxm+ZmNyDdd9XJKH6VL+XGsnnJdHt5Y3/t1tHoTKoQghZf9YP/wuZzTRVfblPKri7PV94WfRrsnEECQwmeBIIWBG9shiBGgNh1BtMTqxiNIYf4IUhi4sR2CGAFq0xFES6xuPIIU5o8ghYEb2yGIEaA2HUG0xOrGI0hh/ghSGLixHYIYAWrTEURLrG48ghTmjyCFgRvbpfV8+YmxRvX0LPnuwfmq89s3qj/y8QMQZFc20e8djwTJ/UJ3Nyrn/NnBxerD3X3h1csQpIUtXb0RQQrvC0EKAze2QxAjQG06gmiJ1Y1HkML8EaQwcGM7BDEC1KYjiJZY3XgEKcwfQQoDN7ZDECNAbTqCaInVje8ryC91nykvdfXn07yVtxO4/VZBUspvLc5WJzUZrOeHP3T9cmYEqbmd2L0RpPB++S9WYeDGdghiBKhNRxAtsbrxCFKYP4IUBm5shyBGgNp0BNESqxuPIIX5I0hh4MZ2CGIEqE1HEC2xuvEIUpg/ghQGbmyHIEaA2nQE0RKrG48ghfkjSGHgxnYIYgSoTUcQLbG68QhSmD+CFAZubIcgRoDadATREqsbjyCF+SNIYeDGdghiBKhNRxAtsbrxCFKYP4IUBm5shyBGgNp0BNESqxuPIIX5I0hh4MZ2IQQRkT8ly7mRRZH0lGQvixxuaXZfsvxV5EGNNpmJvL5/cfqb9/OjCOLNifq7RmAv3Szxp60RZNcWz3v6EUCQK07bfmlDP6JEhSKAIAgS6qDHHgZBEGTsmwpVD0EQJNRBjz0MgiDI2DcVqh6C9Bcki9xNIt+GOoAJD5Mk38qS3u5EgCAKQRr6E2wTvvveo5/NX7i1kdnPCNIT2bZP87b0u3l7jjzpMARRrh9BlMAaD0cQ5QIRRAms8XAEUS4QQZTAGg9HEOUCEUQJrPFwBFEuEEGUwBoPRxDlAhFECazxcARRLhBBlMAaD0cQ5QIRRAms8XAEUS4QQZTAGg9HEOUCEUQJrPFwBFEuEEGUwBoPRxDlAhFECazxcARRLhBBlMAaD0cQ5QIRRAms8XAEUS4QQZTAGg9vShAR+UNETiozf7+rPz8PUnk7I7dvTZCRxx+/HIKMz7RmRQQZmT6CjAy0cjkEGXkBCDIy0MrlEGTkBSDIyEArl0OQkReAICMDrVwOQUZeAIKMDLRyOQQZeQEIMjLQyuV2SpAH8+V3lXmY229Evj44P/3UXIgCO0FgpwTZCSI8AgL/IYAgnAMEOgggCOcBAQThBiAwjAAfQYZxI6shAuvF8ma+lINBT07p+ST5i67cnORd2cj9QfV7JuWUcuoZSxgEVATW8+WxiHR+F7aqYJ3gSwSpAz58VwQJv2IGtBBAEAs9csMTQJDwK2ZACwEEsdAjNzwBBAm/Yga0EEAQCz1ywxNAkPArZkALgR6C/CR76TVLD2tu3shRyrnru8D5OogVMvlPJrBNkCRyZ3F+WlWQ3+cvHiXJX3bsEEE4cB8CCOLDlapBCCBIkEUyhg8BBPHhStUgBBAkyCIZw4cAgvhwpWoQAggSZJGM4UMAQXy4UjUIAQQJskjG8CGAID5cqRqEAIIEWSRj+BBAEB+uVA1CAEGCLJIxfAggiA9XqgYhgCBBFskYPgQQxIcrVYMQQJAgi2QMHwII4sOVqkEIIEiQRTKGDwEE8eFK1SAEECTIIhnDhwCC+HClahACCBJkkYzhQwBBfLhSNQgBBAmySMbwIYAgPlypGoQAggRZJGP4EEAQH65UDUIAQYIskjF8CCCID1eqBiGAIEEWyRg+BBDEhytVgxBAkCCLZAwfAgjiw5WqQQggSJBFMoYPAQTx4UrVIAQQJMgiGcOHAIL4cKVqEAIIEmSRjOFDAEF8uFI1CAEECbJIxvAhgCA+XKkahACCBFkkY/gQ2CbIo65Z0js+3ftVTSJHIvmNjujL1K8UURDQEegjiK5ilWgEqYJ9Ak0RZAJLZsThBBBkODsyJ0AAQSawZEYcTgBBhrMjcwIEEGQCS2bE4QQQZDg7MidAYL2//FyyvNf4qJf/AptvTdccRFrbAAAAAElFTkSuQmCC" id="icon" x="-441" y="188" width="391.5" height="391.5"></image>
+    </g>
+  </g>
+</svg>

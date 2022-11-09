@@ -1,7 +1,8 @@
+from netway.fast import *
 from urllib.request import urlopen
 import socket 
 
-
+@functools.cache
 def getdomain(url):
     if(url[len(url)-1]=='/'):
         url = url[:-1]
@@ -15,9 +16,11 @@ def getdomain(url):
 
     return url.split('/')[0]
 
+@functools.cache
 def getfull(url):
     return gethttp(url) + getdomain(url)
 
+@functools.cache
 def gethttp(domain):
     try:
         urlopen('https://'+domain).read()
@@ -27,9 +30,10 @@ def gethttp(domain):
     return 'https://'
 
 
+@functools.cache
 def getip(url):
     return socket.gethostbyname(getdomain(url))
 
-
+@functools.cache
 def gettld(url):
     return getdomain(url).split('.')[1]
