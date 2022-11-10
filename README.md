@@ -17,7 +17,7 @@ pip install netway
 ## Usage
 Note : Dont forget to use https or http while using get and post methods...
 
-* Simple **GET** Request :
+* **GET** Request :
 ```python
 import netway 
 
@@ -30,7 +30,7 @@ print(nw.headers)
 # .status_code
 ```
 
-* Simple **POST** Request :
+* **POST** Request :
 ```python
 import netway
 
