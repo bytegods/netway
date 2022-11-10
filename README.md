@@ -6,7 +6,7 @@
   </p>
 </div>
 
-Large Network library for python.
+Netway is internet library that allows you to use internet. Example use get and post methods on websites, create network server and client side scripts and more...
 
 
 ## Installation
@@ -15,6 +15,7 @@ pip install netway
 ```
 
 ## Usage
+Note : Dont forget to use https or http while using get and post methods...
 
 * Simple **GET** Request :
 ```python
@@ -24,13 +25,6 @@ nw = netway.get("https://google.com/")
 print(nw.headers)
 
 # Avaliable GET Modules : 
-
-# .domain
-# .url
-# .http
-# .ip 
-# .tld
-
 # .text 
 # .headers
 # .status_code
@@ -71,13 +65,6 @@ print(nw.text)
 # proxies = proxy
 # headers = header
 # payload = data 
-
-# .domain
-# .url
-# .http
-# .ip 
-# .tld
-
 # .text 
 # .headers
 # .status_code

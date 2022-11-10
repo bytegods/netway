@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.7'
+VERSION = '0.8'
 DESCRIPTION = 'Python internet library'
 LONG_DESCRIPTION = "Netway is python library that allows you to send HTTP requests and receive responses,create socket servers and more..."
 
