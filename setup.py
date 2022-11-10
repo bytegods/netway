@@ -1,25 +1,24 @@
-
 from setuptools import setup, find_packages
-import pathlib
 
-here = pathlib.Path(__file__).parent.resolve()
-long_description = (here / "README.md").read_text(encoding="utf-8")
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Intended Audience :: Education',
+    'Operating System :: Microsoft :: Windows :: Windows 10',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3'
+]
 
 setup(
     name='netway',
-    version='0.4',
-    license='MIT',
-    description="Python internet library",
-    long_description=long_description,
+    description='Python internet library',
+    long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
-    author="Thesaderror & Mein",
-    author_email='saderroraz@protonmail.com',
-    packages=find_packages('src'),
-    package_dir={'./netway': 'src'},
     url='',
+    author='Thesaderror & Mein',
+    author_email='saderroraz@protonmail.com',
+    license='MIT',
+    classifiers=classifiers,
     keywords='sockets, request, http, https, get, port, fast',
-    install_requires=[
-          'sockets'
-      ],
-
+    packages=find_packages(),
+    install_requires=['sockets']
 )
